@@ -19,7 +19,7 @@
 
 ## Documentation
 
-This repository aims to function as the working documentation of ultrasuite. See the **<FAQ-link>** for various questions and their answers.
+This repository aims to function as the working documentation of ultrasuite. See the [FAQ](faq.md) for various questions and their answers.
 
 ## Contributing
 
@@ -27,7 +27,7 @@ We welcome user contribution to UltraSuite! We are hoping to keep UltraSuite in 
 
 ##### Contributing with data:
 
-The current release of UltraSuite has three datasets of ultrasound and audio from Child speech, but we hope to include additional datasets from other modalities (e.g. MRI) and age groups (e.g. Adults). If you'd like share data that you collected through UltraSuite, please get in touch with any member of the [Ultrax Speech project](www.ultrax-speech.org/team). Note that even though data is available through UltraSuite, we encourage users to cite the original authors.
+The current release of UltraSuite has three datasets of ultrasound and audio from Child speech, but we hope to include additional datasets from other modalities (e.g. MRI) and age groups (e.g. Adults). If you'd like share data that you collected through UltraSuite, please get in touch with any member of the [Ultrax Speech project](http://www.ultrax-speech.org/team). Note that even though data is available through UltraSuite, we encourage users to cite the original authors.
 
 ##### Contributing with code:
 
@@ -35,7 +35,7 @@ To contribute with code or to help improve this documentations, please submit yo
 
 ##### Reporting issues:
 
-To report any issues, you can use GitHub's Issue Tracker or you can contact any member of the  [Ultrax Speech project](www.ultrax-speech.org/team). Please submit any issues related to code in their respective repositories using Github's Issue Tracker. For issues found in the data, please contact us directly.
+To report any issues, you can use GitHub's Issue Tracker or you can contact any member of the  [Ultrax Speech project](http://www.ultrax-speech.org/team). Please submit any issues related to code in their respective repositories using Github's Issue Tracker. For issues found in the data, please contact us directly.
 
 ## License
 

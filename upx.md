@@ -56,5 +56,7 @@ Each file ID also includes a prompt type identifier. See [Data](data.md) for det
 
 [1] Eshky, A., Ribeiro, M. S., Cleland, J., Richmond, K., Roxburgh, Z.,  Scobbie, J., & Wrench, A. (2018) **Ultrasuite: A repository of ultrasound and acoustic data from child speech therapy sessions**. Proceedings of INTERSPEECH. Hyderabad, India.
 
-[2] TODO
+[2] Cleland, J., Scobbie, J. M., Heyde, C., Roxburgh, Z., & Wrench, A. A. (2017). **Covert contrast and covert errors in persistent velar fronting**. Clinical linguistics & phonetics, 31(1), 35-55.  
+
+[3] Cleland, J., Scobbie, J. M., Roxburgh, Z., Heyde, C., & Wrench, A. A. (Under Revision).  **Enabling New Articulatory Gestures in Children with Persistent Speech Sound Disorders using Ultrasound Visual Biofeedback**. Journal of Speech, Language, and Hearing Research.
 
