@@ -2,7 +2,7 @@
 
 #### A dataset of ultrasound and audio recordings from typically developing children
 
-
+Speaker list of UltraSuite's [UXTD](uxtd.md) dataset.
 
 ## Speakers
 

@@ -8,7 +8,7 @@
 
 The UXTD dataset contains 58 speakers (31 female and 27 male), aged  5-12 years.
 
-For a list and additional details, see **<link-speakers>**.
+For a list and additional details, see [UXTD Speakers](uxtd-spk.md).
 
 ## Data Types
 
@@ -38,7 +38,7 @@ All labels are provided in Praat's TextGrid format.
 Individual recordings are indexed for each session according to their recording times.
 See the prompt text file for recording date/time. 
 
-Each file ID also includes a prompt type identifier. See <link-data> for details.
+Each file ID also includes a prompt type identifier. See [Data](data.md) for details.
 
 ## Download
 

@@ -58,7 +58,7 @@ All labels are provided in Praat's TextGrid format.
 Individual recordings are indexed for each session according to their recording times.
 See the prompt text file for recording date/time. 
 
-Each file ID also includes a prompt type identifier. See <link-data> for details.
+Each file ID also includes a prompt type identifier. See [Data](data.md) for details.
 
 ## Additional Notes
 

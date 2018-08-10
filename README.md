@@ -8,9 +8,9 @@
 
 *Download links will be made available soon.*
 
-* UXTD - Ultrax Typically Developing. **<link>**
-* UXSSD - Ultrax Speech Sound Disorders. **<link>**
-* UPX - UltraPhonix (disordered speech). **<link>**
+* [UXTD](uxtd.md) (Ultrax Typically Developing)
+* [UXSSD](uxssd.md) (Ultrax Speech Sound Disorders)
+* [UPX](upx.md) (UltraPhonix - disordered speech)
 
 ## Code
 
