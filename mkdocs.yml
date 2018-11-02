@@ -1,13 +1,13 @@
 site_name: UltraSuite Repository
 site_description: A repository of ultrasound and acoustic data from child speech therapy sessions
-site_logo: img/logo.png
 
 theme:
   name: readthedocs
   custom_dir: custom/
   logo_only: False
-  include_search_page: false
-  collapse_navigation: false
+  collapse_navigation: False
+
+use_directory_urls: True
 
 extra_css:
     - extra.css
