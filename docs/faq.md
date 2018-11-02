@@ -24,7 +24,7 @@ Some utterances contain regions of artificial silence. These correspond to regio
 
 #### I found an issue in one or more utterances. How can I report it?
 
-Please see [Contributing](README.md#Contributing).
+Please see [Contributing](index.md#Contributing).
 
 #### How can I interpret ultrasound parameters?
 
