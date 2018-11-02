@@ -1,0 +1,20 @@
+site_name: UltraSuite Repository
+site_description: A repository of ultrasound and acoustic data from child speech therapy sessions
+site_logo: img/logo.png
+
+theme:
+  name: readthedocs
+  custom_dir: custom/
+  logo_only: False
+  include_search_page: false
+  collapse_navigation: false
+
+extra_css:
+    - extra.css
+
+nav:
+    - Home: index.md
+    - Ultrax Typically Developing: data/uxtd.md
+    - Ultrax Speech Sound Disorders: data/uxssd.md
+    - Ultraphonix: data/upx.md
+    - Frequently Asked Questions: faq.md
