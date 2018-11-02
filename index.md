@@ -1,16 +1,14 @@
-# Ultrasuite
 
-### A repository of ultrasound and acoustic data from child speech therapy sessions
-
-[UltraSuite](http://homepages.inf.ed.ac.uk/aeshky/pub/aeshky_IS18.pdf) is a repository of ultrasound and acoustic data from child speech therapy sessions. The current release includes three data collections, one from typically developing children and two from children with speech sound disorders. It also includes a set of annotations, some manual and some automatically produced, and tools to process, transform and visualise the data.
+UltraSuite is a repository of ultrasound and acoustic data from child speech therapy sessions. The current release includes three data collections, one from typically developing children and two from children with speech sound disorders. It also includes a set of annotations, some manual and some automatically produced, and tools to process, transform and visualise the data. [Read the paper here!](http://homepages.inf.ed.ac.uk/aeshky/pub/aeshky_IS18.pdf) 
 
 ## Data
 
-*Download links will be made available soon.*
+There are three datasets available in the repository:
+* [UXTD](uxtd.md) - Ultrax Typically Developing
+* [UXSSD](uxssd.md) - Ultrax Speech Sound Disorders
+* [UPX](upx.md) - UltraPhonix - disordered speech
 
-* [UXTD](uxtd.md) (Ultrax Typically Developing)
-* [UXSSD](uxssd.md) (Ultrax Speech Sound Disorders)
-* [UPX](upx.md) (UltraPhonix - disordered speech)
+*Download links will be made available soon.*
 
 ## Code
 
