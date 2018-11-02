@@ -1,6 +1,8 @@
 
 UltraSuite is a repository of ultrasound and acoustic data from child speech therapy sessions. The current release includes three data collections, one from typically developing children and two from children with speech sound disorders. It also includes a set of annotations, some manual and some automatically produced, and tools to process, transform and visualise the data. [Read the paper here!](http://homepages.inf.ed.ac.uk/aeshky/pub/aeshky_IS18.pdf) 
 
+![image](imgs/waveform_ultrasound.png)
+
 ## Data
 
 There are three datasets available in the repository:
