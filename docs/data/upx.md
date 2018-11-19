@@ -1,6 +1,6 @@
-# UPX - UltraPhonix
+# UltraPhonix
 
-#### A dataset of ultrasound and audio recordings from children with speech sound disorders
+**A dataset of ultrasound and audio recordings from children with speech sound disorders**
 
 
 

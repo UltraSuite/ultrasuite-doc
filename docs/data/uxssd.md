@@ -1,6 +1,6 @@
-# UXSSD - Ultrax Speech Sound Disorders
+# Ultrax Speech Sound Disorders
 
-#### A dataset of ultrasound and audio recordings from children with speech sound disorders
+**A dataset of ultrasound and audio recordings from children with speech sound disorders**
 
 
 

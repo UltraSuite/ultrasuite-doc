@@ -1,6 +1,6 @@
-# UXTD - Ultrax Typically Developing Children
+# Ultrax Typically Developing Children
 
-#### A dataset of ultrasound and audio recordings from typically developing children
+**A dataset of ultrasound and audio recordings from typically developing children**
 
 
 
