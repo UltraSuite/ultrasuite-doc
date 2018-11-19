@@ -4,13 +4,15 @@
 
 
 
-## Speakers
+### Speakers
 
 The UXTD dataset contains 58 speakers (31 female and 27 male), aged  5-12 years.
 
 For a list and additional details, see [UXTD Speakers](uxtd-spk.md).
 
-## Data Types
+
+
+### Data Types
 
 **<u>Core data types</u>**
 
@@ -33,18 +35,18 @@ All labels are provided in Praat's TextGrid format.
 | word-labels    | automatic word-level alignment                               |
 | phone-labels   | automatic phone-level alignment                              |
 
-## File IDs
+
+
+### File IDs
 
 Individual recordings are indexed for each session according to their recording times.
 See the prompt text file for recording date/time. 
 
 Each file ID also includes a prompt type identifier. See [Data](data.md) for details.
 
-## Download
 
-*Download links will be made available soon*
 
-## References
+### References
 
 [1] Eshky, A., Ribeiro, M. S., Cleland, J., Richmond, K., Roxburgh, Z.,  Scobbie, J., & Wrench, A. (2018) **Ultrasuite: A repository of ultrasound and acoustic data from child speech therapy sessions**. Proceedings of INTERSPEECH. Hyderabad, India.
 

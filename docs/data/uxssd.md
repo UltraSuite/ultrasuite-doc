@@ -4,7 +4,7 @@
 
 
 
-## Speakers
+### Speakers
 
 The UXSSD dataset contains 8 speakers (2 female and 6 male), aged 5-10 years.
 
@@ -21,7 +21,7 @@ The table below give further details for each speaker. Ages were taken in the fi
 | 07F        | F      | 7     | 6     | 7.5   |
 | 08M        | M      | 7     | 7     | 7.58  |
 
-## Sessions
+Sessions
 
 | Session | Description                                           |
 | ------- | ----------------------------------------------------- |
@@ -31,7 +31,9 @@ The table below give further details for each speaker. Ages were taken in the fi
 | Maint   | Maintenance session, some time after therapy ended    |
 | Therapy | Therapy sessions                                      |
 
-## Data Types
+
+
+### Data Types
 
 **<u>Core data types</u>**
 
@@ -53,22 +55,24 @@ All labels are provided in Praat's TextGrid format.
 | word-labels    | automatic word-level alignment                               |
 | phone-labels   | automatic phone-level alignment                              |
 
-## File IDs
+
+
+### File IDs
 
 Individual recordings are indexed for each session according to their recording times.
 See the prompt text file for recording date/time. 
 
 Each file ID also includes a prompt type identifier. See [Data](data.md) for details.
 
-## Additional Notes
+
+
+### Additional Notes
 
 Speaker 05M was subjected to two rounds of therapy, with corresponding Assessment sessions. These are identified as *_round2 in the speaker directory. Therapy sessions for this speaker are indexed chronologically.
 
-## Download
+### 
 
-*Download links will be made available soon*
-
-## References
+### References
 
 [1] Eshky, A., Ribeiro, M. S., Cleland, J., Richmond, K., Roxburgh, Z.,  Scobbie, J., & Wrench, A. (2018) **Ultrasuite: A repository of ultrasound and acoustic data from child speech therapy sessions**. Proceedings of INTERSPEECH. Hyderabad, India.
 

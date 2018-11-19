@@ -2,7 +2,7 @@
 
 
 
-## Prompt Types
+### Prompt Types
 
 There are six different prompt types, encoding the task with was requested of the child. Please see section 3.1 of Eshky et al (2018) for further details.
 
@@ -18,7 +18,7 @@ There are six different prompt types, encoding the task with was requested of th
 
 
 
-## Speech Hours 
+### Speech Hours 
 
 The following hours of speech and silence are rounded to two decimal places and are estimated using the speaker labels that accompany each dataset.
 
