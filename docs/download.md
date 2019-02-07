@@ -12,7 +12,7 @@ Because the repository is quite large (**380 GB**), please make sure you have en
 
 `rsync` is a command-line tool that allows efficient and fast transfer and synchronisation of files across systems. This is usually pre-install on Linux or mac machines. These instructions assume you have the tool installed on your system, but do not assume a lot of experience with its usage. 
 
-If you are familiar with `rsync`, you can skip ahead and merely glance at the typical commands. All flags commonly used with the tool should be applicable to this scenario.
+If you are familiar with `rsync`, you can skip ahead and merely glance at the typical commands. All flags commonly used with the tool should be applicable to this scenario. See the [man page](https://linux.die.net/man/1/rsync) for further details.
 
 If you are not familiar with `rsync`, you should be aware that, if you have a version of the data on your disk, `rsync` will **synchronise** your local data with the latest version of UltraSuite. If there are changes to the UltraSuite repository, your data will be overwritten with those latest changes. A useful flag to use with the tool is `--dry-run`, which will simulate the synchronisation process.
 
@@ -76,7 +76,9 @@ The structure of each data set is identical and it follows the following pattern
 		...
 ```
 
-Please see the list of speakers of each of the datasets, if you are interested in downloading data from single speakers. To simulate the process, you can run `rsync` with the flag `--dry-run` and get an estimate for the amount of data.
+Please see the list of speakers of each of the datasets, if you are interested in downloading data from single speakers. Each speaker directory will contain four data types: waveforms (`.wav`), prompts (`.txt`), ultrasound data (`.ult`), and ultrasound parameters (`.param`) .
+
+To simulate the process, you can run `rsync` with the flag `--dry-run` and get an estimate for the amount of data.
 
 
 
@@ -89,6 +91,18 @@ rsync -av ultrasuite-rsync.inf.ed.ac.uk::ultrasuite/labels-uxtd-uxssd-upx .
 ```
 
 You can get labels for each of the datasets by appending `/uxtd`, `/uxssd`, or `/upx`to the command above. There is also a documentation directory for the labels called `/doc`.
+
+
+
+### Download selected data types
+
+Using `rsync`, it is possible to download only specific data types by specifying the desired extension. For example, you can download waveforms (`.wav`), prompts (`.txt`), ultrasound data (`.ult`), or ultrasound parameters (`.param`) separately. To achieve this, the `rsync`command would look like:
+
+```sh
+rsync -av --include="*/" --include="*.wav" --exclude="*" ultrasuite-rsync.inf.ed.ac.uk::ultrasuite/core-uxtd .
+```
+
+This command downloads all waveforms from the UXTD dataset. Note that the `--include` flags works together with the `--exclude` flag. It is used to include files that would otherwise be excluded. The way to interpret this command is that we first exclude all files with `--exclude="*"`. Then we include all directories with `--include="*/"`and all files ending with the desired extension with `--include="*.wav"`. Additional include flags may specify other data types, for example `--include="*.txt"`to download all prompts.
 
 
 
