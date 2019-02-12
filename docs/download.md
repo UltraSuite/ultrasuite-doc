@@ -2,9 +2,17 @@
 
 # Download
 
-Data from the UltraSuite repository is available via the `rsync` command. All flags from this tools should be valid when syncing the UltraSuite repository.
+The complete data from the UltraSuite repository is available via the `rsync` command. All flags from this tool should be valid when syncing the UltraSuite repository.
 
-Because the repository is quite large (**380 GB**), please make sure you have enough space on your disk. Alternatively, go through these instructions and download only a subset of the data for which you have space for.
+Sample data from the UltraSuite repository is available via [Edinburgh DataShare](http://hdl.handle.net/10283/3255). 
+
+
+
+### Download sample data
+
+Download of a very small subset of the UltraSuite repository can be achieve via [Edinburgh DataShare](http://hdl.handle.net/10283/3255). The downloadable datasets on DataShare contain a small sample from each of the three datasets in the UltraSuite repository, as well as their accompanying documentation. This is convenient for users who are unable or unwilling to download the repository using `rsync`.
+
+This may be the case if you are a Windows user. `rsync` is not trivially installed and manipulated from Windows. Feel free to explore the sample data from Edinburgh DataShare and determine if the UltraSuite repository fit your needs. Please get in touch with us and we'll try and share the complete repository with you.
 
 
 
@@ -15,6 +23,8 @@ Because the repository is quite large (**380 GB**), please make sure you have en
 If you are familiar with `rsync`, you can skip ahead and merely glance at the typical commands. All flags commonly used with the tool should be applicable to this scenario. See the [man page](https://linux.die.net/man/1/rsync) for further details.
 
 If you are not familiar with `rsync`, you should be aware that, if you have a version of the data on your disk, `rsync` will **synchronise** your local data with the latest version of UltraSuite. If there are changes to the UltraSuite repository, your data will be overwritten with those latest changes. A useful flag to use with the tool is `--dry-run`, which will simulate the synchronisation process.
+
+Because the repository is quite large (**380 GB**), please make sure you have enough space on your disk. Alternatively, go through these instructions and download only a subset of the data for which you have space for.
 
 
 
@@ -29,7 +39,7 @@ cd UltraSuite
 
 
 
-### Download a sample
+### Download an utterance
 
 Now that we have a place to store the data, we will download some sample data from the repository. This might be useful if you wish to get a small example to get familiar with the format of the data or test some code.
 
