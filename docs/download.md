@@ -1,5 +1,3 @@
-
-
 # Download
 
 The complete data from the UltraSuite repository is available via the `rsync` command. All flags from this tool should be valid when syncing the UltraSuite repository.
@@ -49,7 +47,7 @@ We first download a single utterance. This is a set of four files: a waveform (.
 rsync -av ultrasuite-rsync.inf.ed.ac.uk::ultrasuite/core-uxtd/core/01M/001* .
 ```
 
-The sample we've just downloaded should give you an idea of the type of data available in UltraSuite. Speaker 01M in the UXTD set has 121 utterances. You can download different samples by changing `001*`to the corresponding utterance.
+The sample we've just downloaded should give you an idea of the type of data available in UltraSuite. Speaker 01M in the UXTD set has 121 utterances. You can download different samples by changing `001*` to the corresponding utterance.
 
 If you'd like, you can get all of the data for speaker 01M. This corresponds to **1.9GB**!  To do so, please run the following command
 
@@ -64,7 +62,7 @@ rsync -av ultrasuite-rsync.inf.ed.ac.uk::ultrasuite/core-uxtd/core/01M .
 You can download an entire data set by syncing its corresponding directory. For example, for the UXTD data set (82GB), you can run the following command:
 
 ```shell
-sync -av ultrasuite-rsync.inf.ed.ac.uk::ultrasuite/core-uxtd .
+rsync -av ultrasuite-rsync.inf.ed.ac.uk::ultrasuite/core-uxtd .
 ```
 
 The same command can be used to download `/core-uxssd` and `/core-upx`. Please be aware that each dataset can be quite large:
@@ -112,7 +110,7 @@ Using `rsync`, it is possible to download only specific data types by specifying
 rsync -av --include="*/" --include="*.wav" --exclude="*" ultrasuite-rsync.inf.ed.ac.uk::ultrasuite/core-uxtd .
 ```
 
-This command downloads all waveforms from the UXTD dataset. Note that the `--include` flags works together with the `--exclude` flag. It is used to include files that would otherwise be excluded. The way to interpret this command is that we first exclude all files with `--exclude="*"`. Then we include all directories with `--include="*/"`and all files ending with the desired extension with `--include="*.wav"`. Additional include flags may specify other data types, for example `--include="*.txt"`to download all prompts.
+This command downloads all waveforms from the UXTD dataset. Note that the `--include` flags works together with the `--exclude` flag. It is used to include files that would otherwise be excluded. The way to interpret this command is that we first exclude all files with `--exclude="*"`. Then we include all directories with `--include="*/"` and all files ending with the desired extension with `--include="*.wav"`. Additional include flags may specify other data types, for example `--include="*.txt"` to download all prompts.
 
 
 

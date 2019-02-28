@@ -34,7 +34,7 @@ The current release of UltraSuite has three datasets of ultrasound and audio fro
 
 **Contributing with code**
 
-To contribute with code or to help improve this documentations, please submit your changes with [Pull Requests.](https://help.github.com/articles/about-pull-requests/)
+To contribute with [code](https://github.com/UltraSuite/ultrasuite-tools) or to help improve [this documentation](https://github.com/UltraSuite/ultrasuite-doc), please submit your changes with [Pull Requests.](https://help.github.com/articles/about-pull-requests/)
 
 **Reporting issues**
 
