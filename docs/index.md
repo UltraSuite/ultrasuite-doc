@@ -42,6 +42,12 @@ To report any issues, you can use GitHub's Issue Tracker or you can contact any 
 
 
 
+## Community
+
+Subscribe to the [UltraSuite mailing list](mailing-list.md) to get updates from the UltraSuite repository and to send and receive messages from other UltraSuite users.
+
+
+
 ## License
 
 Datasets from UltraSuite are distributed under [Attribution-NonCommercial 4.0 Generic (CC BY-NC 4.0).](https://creativecommons.org/licenses/by-nc/4.0/) Code is available under the [Apache License v.2.](https://www.apache.org/licenses/LICENSE-2.0)
