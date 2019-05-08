@@ -6,7 +6,7 @@
 
 The UltraSuite mailing list can be found at:
 
-http://lists.inf.ed.ac.uk/mailman/listinfo/ultrasuite
+[http://lists.inf.ed.ac.uk/mailman/listinfo/ultrasuite](http://lists.inf.ed.ac.uk/mailman/listinfo/ultrasuite)
 
 To post to this list (subscribers only), send your email to:
 
@@ -14,7 +14,7 @@ To post to this list (subscribers only), send your email to:
 
 If you ever want to unsubscribe or change your options (e.g. switch to or from digest mode, change your password, etc.), visit your subscription page at:
 
-http://lists.inf.ed.ac.uk/mailman/options/ultrasuite/yourname@yourmail
+[http://lists.inf.ed.ac.uk/mailman/options/ultrasuite/yourname@yourmail](http://lists.inf.ed.ac.uk/mailman/options/ultrasuite/yourname@yourmail)
 
 You can also make such adjustments via email by sending a message to:
 
