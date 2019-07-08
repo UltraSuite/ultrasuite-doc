@@ -46,14 +46,17 @@ Sessions
 
 **<u>Additional data</u>**
 
-All labels are provided in Praat's TextGrid format.
+| Data type        | Description                                                  |
+| ---------------- | ------------------------------------------------------------ |
+| slt_labels       | manual annotation from SLT, when available. See [2] for details |
+| speaker_labels   | speaker diarization identifying therapist (SLT) and child (CHILD) speech |
+| reference_labels | manually-revised word-level alignments.                      |
+| word_labels      | automatic word-level alignment                               |
+| phone_labels     | automatic phone-level alignment                              |
 
-| Data type      | Description                                                  |
-| -------------- | ------------------------------------------------------------ |
-| slt-labels     | manual annotation from SLT, when available. See [2] for details |
-| speaker-labels | speaker diarization identifying therapist (SLT) and child (CHILD) speech |
-| word-labels    | automatic word-level alignment                               |
-| phone-labels   | automatic phone-level alignment                              |
+Labels are available in Praat's TextGrid format and HTK's lab format.
+
+Speaker, word, and phone labels were generated according to the methods described in [3].
 
 
 
@@ -70,10 +73,12 @@ Each file ID also includes a prompt type identifier. See [Data](data.md) for det
 
 Speaker 05M was subjected to two rounds of therapy, with corresponding Assessment sessions. These are identified as *_round2 in the speaker directory. Therapy sessions for this speaker are indexed chronologically.
 
-### 
+
 
 ### References
 
 [1] Eshky, A., Ribeiro, M. S., Cleland, J., Richmond, K., Roxburgh, Z.,  Scobbie, J., & Wrench, A. (2018) **Ultrasuite: A repository of ultrasound and acoustic data from child speech therapy sessions**. Proceedings of INTERSPEECH. Hyderabad, India.
 
 [2] Cleland, J., Scobbie, J. M., & Wrench, A. A. (2015). **Using ultrasound visual biofeedback to treat persistent primary speech sound disorders**. Clinical linguistics & phonetics, 29(8-10), 575-597.
+
+[3] Ribeiro, M. S., Eshky, A., Richmond, K., Renals, S., (2019). **Ultrasound tongue imaging for diarization and alignment of child speech therapy sessions**. Proceedings of INTERSPEECH. Graz, Austria.

@@ -25,15 +25,18 @@ For a list and additional details, see [UXTD Speakers](uxtd-spk.md).
 
 **<u>Additional data</u>**
 
-All labels are provided in Praat's TextGrid format.
+| Data type        | Description                                                  |
+| ---------------- | ------------------------------------------------------------ |
+| transcriptions   | transcription for utterances of type X and X.                |
+| slt_labels       | manual annotation from SLT, when available. See [2] for details |
+| reference_labels | manually-revised word-level alignments.                      |
+| speaker_labels   | speaker diarization identifying therapist (SLT) and child (CHILD) speech |
+| word_labels      | automatic word-level alignment                               |
+| phone_labels     | automatic phone-level alignment                              |
 
-| Data type      | Description                                                  |
-| -------------- | ------------------------------------------------------------ |
-| transcriptions | transcription for utterances of type X and X.                |
-| slt-labels     | manual annotation from SLT, when available. See [2] for details |
-| speaker-labels | speaker diarization identifying therapist (SLT) and child (CHILD) speech |
-| word-labels    | automatic word-level alignment                               |
-| phone-labels   | automatic phone-level alignment                              |
+Labels are available in Praat's TextGrid format and HTK's lab format.
+
+Speaker, word, and phone labels were generated according to the methods described in [3].
 
 
 
@@ -51,4 +54,6 @@ Each file ID also includes a prompt type identifier. See [Data](data.md) for det
 [1] Eshky, A., Ribeiro, M. S., Cleland, J., Richmond, K., Roxburgh, Z.,  Scobbie, J., & Wrench, A. (2018) **Ultrasuite: A repository of ultrasound and acoustic data from child speech therapy sessions**. Proceedings of INTERSPEECH. Hyderabad, India.
 
 [2] Cleland, J., Scobbie, J., Naki, S., & Wrench, A. (2015). **Helping children learn non-native articulations: the implications for ultrasound-based clinical intervention.** Proceedings of the 18th International Congress of Phonetic Sciences : ICPhS 2015. ed. / The Scottish Consortium for ICPhS 2015. 1. ed. Scotland, 2015. p. 1-5 698.
+
+[3] Ribeiro, M. S., Eshky, A., Richmond, K., Renals, S., (2019). **Ultrasound tongue imaging for diarization and alignment of child speech therapy sessions**. Proceedings of INTERSPEECH. Graz, Austria.
 

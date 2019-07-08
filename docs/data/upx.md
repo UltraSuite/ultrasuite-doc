@@ -36,14 +36,16 @@ TODO
 
 **<u>Additional data</u>**
 
-All labels are provided in Praat's TextGrid format.
-
 | Data type      | Description                                                  |
 | -------------- | ------------------------------------------------------------ |
-| slt-labels     | manual annotation from SLT, when available. See [2] for details |
-| speaker-labels | speaker diarization identifying therapist (SLT) and child (CHILD) speech |
-| word-labels    | automatic word-level alignment                               |
-| phone-labels   | automatic phone-level alignment                              |
+| slt_labels     | manual annotation from SLT, when available. See [2] for details |
+| speaker_labels | speaker diarization identifying therapist (SLT) and child (CHILD) speech |
+| word_labels    | automatic word-level alignment                               |
+| phone_labels   | automatic phone-level alignment                              |
+
+Labels are available in Praat's TextGrid format and HTK's lab format.
+
+Speaker, word, and phone labels were generated according to the methods described in [4].
 
 
 
@@ -63,4 +65,8 @@ Each file ID also includes a prompt type identifier. See [Data](data.md) for det
 [2] Cleland, J., Scobbie, J. M., Heyde, C., Roxburgh, Z., & Wrench, A. A. (2017). **Covert contrast and covert errors in persistent velar fronting**. Clinical linguistics & phonetics, 31(1), 35-55.  
 
 [3] Cleland, J., Scobbie, J. M., Roxburgh, Z., Heyde, C., & Wrench, A. A. (Under Revision).  **Enabling New Articulatory Gestures in Children with Persistent Speech Sound Disorders using Ultrasound Visual Biofeedback**. Journal of Speech, Language, and Hearing Research.
+
+[4] Ribeiro, M. S., Eshky, A., Richmond, K., Renals, S., (2019). **Ultrasound tongue imaging for diarization and alignment of child speech therapy sessions**. Proceedings of INTERSPEECH. Graz, Austria.
+
+
 
