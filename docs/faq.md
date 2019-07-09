@@ -3,7 +3,7 @@
 * [Why is there a difference in the numbers reported here and those in the paper?](#why-is-there-a-difference-in-the-numbers-reported-here-and-those-in-the-paper)
 * [Why is there silence in some waveforms?](#why-is-there-silence-in-some-waveforms)
 * [I found an issue in one or more utterances. How can I report it?](#i-found-an-issue-in-one-or-more-utterances-how-can-i-report-it)
-* [How can I interpret ultrasound parameters?](#how-can-i-interpret-ultrasound-parameters)
+* [What is this data repository being used for?](#what-is-this-data-repository-being-used-for)
 * [How can I cite UltraSuite?](#how-can-i-cite-ultrasuite)
 
 
@@ -26,9 +26,9 @@ Some utterances contain regions of artificial silence. These correspond to regio
 
 Please see [Contributing](index.md#Contributing).
 
-#### How can I interpret ultrasound parameters?
+#### What is this data repository being used for?
 
-TODO
+You can find out the various applications of this data by having a look at [papers that cite Ultrasuite](<https://scholar.google.com/scholar?cites=9159984300116881095&as_sdt=2005&sciodt=0,5&hl=en>). If you are using the repository or know of any applications not listed in the link above, please get in touch with us. We would be happy to hear about it!
 
 #### How can I cite UltraSuite?
 
@@ -36,3 +36,6 @@ For the current release of UltraSuite, if using data or code, please provide app
 
 - Eshky, A., Ribeiro, M. S., Cleland, J., Richmond, K., Roxburgh, Z.,  Scobbie, J., & Wrench, A. (2018) **Ultrasuite: A repository of ultrasound and acoustic data from child speech therapy sessions**. Proceedings of INTERSPEECH. Hyderabad, India.
 
+If you are using automatically-generated labels, you may also like to cite the following paper:
+
+- Ribeiro, M. S., Eshky, A., Richmond, K. & Renals, S., (2019). **Ultrasound tongue imaging for diarization and alignment of child speech therapy sessions**. Proceedings of INTERSPEECH. Graz, Austria.
