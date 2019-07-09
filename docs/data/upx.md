@@ -6,7 +6,9 @@
 
 ### Speakers
 
-TODO
+The UltraPhonix dataset contains 20 speakers (16 male, 4 female), aged 6-13 years.
+
+For a list and additional details, see [UPX Speakers](upx-spk.md).
 
 
 
