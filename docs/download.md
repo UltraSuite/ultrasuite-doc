@@ -28,7 +28,7 @@ Because the repository is quite large (**380 GB**), please make sure you have en
 
 ### Setting up
 
-To get started, please create a directory on a hard drive where a large amount of space is available. Then, change your current directory onto that newly created one. On Linux or maxOS, this can be achieved by running:
+To get started, please create a directory on a hard drive where a large amount of space is available. Then, change your current directory onto that newly created one. On Linux or macOS, this can be achieved by running:
 
 ```shell
 mkdir UltraSuite
@@ -92,7 +92,7 @@ To simulate the process, you can run `rsync` with the flag `--dry-run` and get a
 
 ### Download label data
 
-To download manual and automatically-generated labels for all three datasets (80MB), please run:
+To download manual and automatically-generated labels for all three datasets (~80MB), please run:
 
 ```sh
 rsync -av ultrasuite-rsync.inf.ed.ac.uk::ultrasuite/labels-uxtd-uxssd-upx .
@@ -100,7 +100,13 @@ rsync -av ultrasuite-rsync.inf.ed.ac.uk::ultrasuite/labels-uxtd-uxssd-upx .
 
 You can get labels for each of the datasets by appending `/uxtd`, `/uxssd`, or `/upx`to the command above. There is also a documentation directory for the labels called `/doc`.
 
+Previous versions of label data are archived in the top-level directory `archive`. To download an earlier version of label data, please run something like:
 
+```sh
+rsync -av ultrasuite-rsync.inf.ed.ac.uk::ultrasuite/archive/labels-uxtd-uxssd-upx-1.0.zip .
+```
+
+The command above will download version 1.0 of labels. Replace the version number as appropriate.
 
 ### Download selected data types
 
