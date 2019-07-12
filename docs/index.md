@@ -20,7 +20,7 @@ There are three datasets available in the repository:
 ## Code
 
 * [Ultrasuite Tools](https://github.com/UltraSuite/ultrasuite-tools) - Python library to process raw ultrasound data.
-* Ultrasuite Kaldi  *(soon)* - Recipes and other code to use UltraSuite data with the [Kaldi Speech Recognition Toolkit](http://kaldi-asr.org/).
+* [Ultrasuite Kaldi](https://github.com/UltraSuite/ultrasuite-tools) - Recipes and other code to use UltraSuite data with the [Kaldi Speech Recognition Toolkit](http://kaldi-asr.org/).
 
 
 
