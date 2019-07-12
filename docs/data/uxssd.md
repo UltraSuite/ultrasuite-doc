@@ -50,9 +50,9 @@ Sessions
 | ---------------- | ------------------------------------------------------------ |
 | slt_labels       | manual annotation from SLT, when available. See [2] for details |
 | speaker_labels   | speaker diarization identifying therapist (SLT) and child (CHILD) speech |
-| reference_labels | manually-revised word-level alignments.                      |
 | word_labels      | automatic word-level alignment                               |
 | phone_labels     | automatic phone-level alignment                              |
+| reference_labels | manually-revised labels (see below for details)              |
 
 Labels are available in Praat's TextGrid format and HTK's lab format.
 
@@ -66,6 +66,29 @@ Individual recordings are indexed for each session according to their recording 
 See the prompt text file for recording date/time. 
 
 Each file ID also includes a prompt type identifier. See [Data](data.md) for details.
+
+
+
+### Reference Labels
+
+Reference labels are given for a few utterances of the UXTD and UXSSD datasets. These have been manually revised at the speaker (60 utterances) and word level (199 utterances). The revision was done by a single annotator.
+
+Note that phone labels are also provided, but these are *not entirely manually-revised*. This set of annotation is force-aligned at the phone level, but constrained by the manually-revised word boundaries.
+
+Labels are available in Praat's TextGrid format (`TG`) and HTK's lab format (`lab`). The structure for the directory is as follows:
+
+```
+/uxssd
+	/phone_labels
+		/lab
+		/TG
+	/word_labels
+		/lab
+		/TG
+	/speaker_labels
+		/lab
+		/TG
+```
 
 
 
