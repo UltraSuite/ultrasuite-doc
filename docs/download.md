@@ -8,9 +8,19 @@ Sample data from the UltraSuite repository is available via [Edinburgh DataShare
 
 ### Download sample data
 
-Download of a very small subset of the UltraSuite repository can be achieve via [Edinburgh DataShare](http://hdl.handle.net/10283/3255). The downloadable datasets on DataShare contain a small sample from each of the three datasets in the UltraSuite repository, as well as their accompanying documentation. This is convenient for users who are unable or unwilling to download the repository using `rsync`.
+Download of a very small subset of the UltraSuite repository can be achieve via [Edinburgh DataShare](http://hdl.handle.net/10283/3255). The downloadable datasets on DataShare contain a small sample from each of the three datasets in the UltraSuite repository, as well as their accompanying documentation. This is convenient for users who are unable or unwilling to download the repository using `rsync` or users that want a quick and easy way to look at the data.
 
-This may be the case if you are a Windows user. `rsync` is not trivially installed and manipulated from Windows. Feel free to explore the sample data from Edinburgh DataShare and determine if the UltraSuite repository fit your needs. Please get in touch with us and we'll try and share the complete repository with you.
+
+
+### Windows users
+
+ `rsync` does not come pre-installed in Windows machines. If you are a Windows user, we have prepared instructions on how to setup `rsync` on your computer:
+
+- [Installing rsync on Windows](download_win.md)
+
+Before going through those instructions, feel free to explore the sample data from Edinburgh DataShare and determine if the UltraSuite repository fit your needs.
+
+Additionally, as a Windows user, you might be interested in using [Articulate Assistant Advanced](http://www.articulateinstruments.com/aaa/) (AAA) for your work. After downloading, the Ultrasuite data can be imported into the AAA software (revision 219.x or higher) one speaker at a time using the “File|Import|ultrasuite…” dialogue. First create a new project or open an existing project. The speaker will be created as a client in that project and all the selected files will be imported.
 
 
 
