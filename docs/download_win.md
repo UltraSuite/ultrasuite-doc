@@ -29,5 +29,5 @@ A very small subset of the data from the UltraSuite repository is also available
 
 ##### Acknowledgements:
 
-Many thanks to Alan Wrench from [Articulate Instruments](www.articulateinstruments.com) for preparing these instructions.
+Many thanks to Alan Wrench from [Articulate Instruments](http://www.articulateinstruments.com) for preparing these instructions.
 
