@@ -7,13 +7,16 @@ UltraSuite is a repository of ultrasound and acoustic data from child speech the
 
 ## Data
 
-There are three datasets available in the repository:
+There are three child speech datasets available in the repository:
 
 - **Ultrax Typically Developing - UXTD.**  A dataset of 58 typically developing children. See [here](data/uxtd.md) for further details.
-
 - **Ultrax Speech Sound Disorders - UXSSD.**  A dataset of 8 children with speech sound disorders. See [here](data/uxssd.md) for further details.
-
 - **UltraPhonix - UPX.** A second dataset of children with speech sound disorders. The data was collected from 20 children.  See [here](data/upx.md) for further details.
+
+And two datasets of adult speech:
+
+- **Tongue and Lips corpus - TaL1**. A single-speaker dataset with data of one professional voice talent, a male native speaker of English, over six recording sessions. Read about the [TaL corpus](data/tal_corpus.md).
+- **Tongue and Lips corpus - TaL80.** A multi-speaker dataset with recording sessions of 81 native speakers of English without voice talent experience. Read about the [TaL corpus](data/tal_corpus.md).
 
 
 
