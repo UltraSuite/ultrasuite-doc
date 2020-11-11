@@ -1,7 +1,9 @@
 ## UltraSuite Repository
 **A repository of ultrasound and acoustic data from child speech therapy sessions**
 
-UltraSuite is a repository of ultrasound and acoustic data from child speech therapy sessions. The current release includes three data collections, one from typically developing children and two from children with speech sound disorders. It also includes a set of annotations, some manual and some automatically produced, and tools to process, transform and visualise the data. [Read the paper here!](papers/ultrasuite_IS18.pdf) 
+Ultrasuite is a collection of ultrasound and acoustic speech data from child speech therapy sessions. The current release includes three datasets, one from typically developing children and two from speech disordered children. Ultrasuite also includes a set of annotations, some manual and some automatically produced, and tools to process, transform and visualise the data. [Read the Ultrasuite paper here!](papers/ultrasuite_IS18.pdf) 
+
+Ultrasuite also distributes the Tongue and Lips (TaL) corpus, a  multi-speaker  corpus  of synchronised ultrasound  images  of the  tongue  and  video  images  of  lips. [Read the TaL paper here!](papers/tal_corpus_SLT2021.pdf).
 
 ![image](imgs/sample.png)
 
@@ -33,7 +35,7 @@ We welcome user contribution to UltraSuite! We are hoping to keep UltraSuite in 
 
 **Contributing with data**
 
-The current release of UltraSuite has three datasets of ultrasound and audio from Child speech, but we hope to include additional datasets from other modalities (e.g. MRI) and age groups (e.g. Adults). If you'd like share data that you collected through UltraSuite, please get in touch with any member of the [Ultrax Speech project](http://www.ultrax-speech.org/team). Note that even though data is available through UltraSuite, we encourage users to cite the original authors.
+The current release of UltraSuite has three datasets of ultrasound and audio from Child speech and two datasets of adult speech, but we hope to include additional datasets in the future. If you'd like to share data that you collected, please get in touch with any member of the [Ultrax Speech project](http://www.ultrax-speech.org/team). We are also happy to host any resources that you have generated for current Ultrasuite datasets (e.g. annotations, scores, tongue splines, etc). Note that even though data is available through UltraSuite, we encourage users to cite the original authors.
 
 **Contributing with code**
 
@@ -57,9 +59,13 @@ Datasets from UltraSuite are distributed under [Attribution-NonCommercial 4.0 Ge
 
 
 
-## Citation
+## Citations
 
-If using data or code from UltraSuite, please provide appropriate web links and cite the following paper:
+If using data from **UXTD, UXSSD, or UPX**, please cite the following paper:
 
-* Eshky, A., Ribeiro, M. S., Cleland, J., Richmond, K., Roxburgh, Z.,  Scobbie, J., & Wrench, A. (2018) **Ultrasuite: A repository of ultrasound and acoustic data from child speech therapy sessions**. Proceedings of INTERSPEECH. Hyderabad, India. [[pdf](http://homepages.inf.ed.ac.uk/aeshky/pub/aeshky_IS18.pdf)] [[bibtex](http://homepages.inf.ed.ac.uk/aeshky/pub/aeshky_IS18.bib)]
+[1] Eshky, A., Ribeiro, M. S., Cleland, J., Richmond, K., Roxburgh, Z.,  Scobbie, J., & Wrench, A. (2018) **Ultrasuite: A repository of ultrasound and acoustic data from child speech therapy sessions**. Proceedings of INTERSPEECH. Hyderabad, India. [[pdf](http://homepages.inf.ed.ac.uk/aeshky/pub/aeshky_IS18.pdf)] [[bibtex](http://homepages.inf.ed.ac.uk/aeshky/pub/aeshky_IS18.bib)]
+
+If using data from the **Tongue and Lips (TaL) corpus**, please cite the following paper:
+
+[2] Ribeiro, M. S., Sanger, J., Zhang, J.-X., Eshky, A., Wrench, A., Richmond, K.,& Renals, S. (2021).  **TaL: a synchronised multi-speaker corpus of ultrasound tongue imaging, audio, and lip videos.** Proceedings of the IEEE Workshop on Spoken Language Technology (SLT). Shenzhen, China
 
