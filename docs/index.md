@@ -26,20 +26,21 @@ And two datasets of adult speech:
 
 * [Ultrasuite Tools](https://github.com/UltraSuite/ultrasuite-tools) - Python library to process raw ultrasound data.
 * [Ultrasuite Kaldi](https://github.com/UltraSuite/ultrasuite-kaldi) - Recipes and other code to use UltraSuite data with the [Kaldi Speech Recognition Toolkit](http://kaldi-asr.org/).
+* [TaL Tools](https://github.com/UltraSuite/tal-tools) - Resources for the Tongue and Lips corpus.
 
 
 
 ## Contributing
 
-We welcome user contribution to UltraSuite! We are hoping to keep UltraSuite in active development with help from the community. All contributions will be given proper credits! There are various ways to participate: 
+We welcome user contribution to Ultrasuite! We are hoping to keep Ultrasuite in active development with help from the community. All contributions will be given proper credit! There are various ways to participate: 
 
 **Contributing with data**
 
-The current release of UltraSuite has three datasets of ultrasound and audio from Child speech and two datasets of adult speech, but we hope to include additional datasets in the future. If you'd like to share data that you collected, please get in touch with any member of the [Ultrax Speech project](http://www.ultrax-speech.org/team). We are also happy to host any resources that you have generated for current Ultrasuite datasets (e.g. annotations, scores, tongue splines, etc). Note that even though data is available through UltraSuite, we encourage users to cite the original authors.
+The current release of Ultrasuite has three datasets of ultrasound and audio from child speech and two datasets of adult speech, but we hope to include additional datasets in the future. If you'd like to share data that you collected, please get in touch with any member of the [Ultrax Speech project](http://www.ultrax-speech.org/team). We are also happy to host any resources that you have generated for current Ultrasuite datasets (e.g. annotations, scores, tongue splines, etc). Note that even though data is available through UltraSuite, we encourage users to cite the original authors.
 
 **Contributing with code**
 
-To contribute with [code](https://github.com/UltraSuite/ultrasuite-tools) or to help improve [this documentation](https://github.com/UltraSuite/ultrasuite-doc), please submit your changes with [Pull Requests.](https://help.github.com/articles/about-pull-requests/)
+To contribute with [code](https://github.com/UltraSuite) or to help improve [this documentation](https://github.com/UltraSuite/ultrasuite-doc), please submit your changes with [Pull Requests.](https://help.github.com/articles/about-pull-requests/)
 
 **Reporting issues**
 
@@ -49,7 +50,7 @@ To report any issues, you can use GitHub's Issue Tracker or you can contact any 
 
 ## Community
 
-Subscribe to the [UltraSuite mailing list](mailing-list.md) to get updates from the UltraSuite repository and to send and receive messages from other UltraSuite users.
+Subscribe to the [UltraSuite mailing list](community.md) to get updates from the UltraSuite repository and to send and receive messages from other UltraSuite users.
 
 
 
@@ -63,9 +64,9 @@ Datasets from UltraSuite are distributed under [Attribution-NonCommercial 4.0 Ge
 
 If using data from **UXTD, UXSSD, or UPX**, please cite the following paper:
 
-[1] Eshky, A., Ribeiro, M. S., Cleland, J., Richmond, K., Roxburgh, Z.,  Scobbie, J., & Wrench, A. (2018) **Ultrasuite: A repository of ultrasound and acoustic data from child speech therapy sessions**. Proceedings of INTERSPEECH. Hyderabad, India. [[pdf](http://homepages.inf.ed.ac.uk/aeshky/pub/aeshky_IS18.pdf)] [[bibtex](http://homepages.inf.ed.ac.uk/aeshky/pub/aeshky_IS18.bib)]
+- Eshky, A., Ribeiro, M. S., Cleland, J., Richmond, K., Roxburgh, Z.,  Scobbie, J., & Wrench, A. (2018) **Ultrasuite: A repository of ultrasound and acoustic data from child speech therapy sessions**. Proceedings of INTERSPEECH. Hyderabad, India. [[paper](papers/ultrasuite_IS18.pdf)]
 
 If using data from the **Tongue and Lips (TaL) corpus**, please cite the following paper:
 
-[2] Ribeiro, M. S., Sanger, J., Zhang, J.-X., Eshky, A., Wrench, A., Richmond, K.,& Renals, S. (2021).  **TaL: a synchronised multi-speaker corpus of ultrasound tongue imaging, audio, and lip videos.** Proceedings of the IEEE Workshop on Spoken Language Technology (SLT). Shenzhen, China
+- Ribeiro, M. S., Sanger, J., Zhang, J.-X., Eshky, A., Wrench, A., Richmond, K.,& Renals, S. (2021).  **TaL: a synchronised multi-speaker corpus of ultrasound tongue imaging, audio, and lip videos.** Proceedings of the IEEE Workshop on Spoken Language Technology (SLT). Shenzhen, China. [[paper](papers/tal_corpus_SLT2021.pdf)] 
 
