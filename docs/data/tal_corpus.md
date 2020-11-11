@@ -4,7 +4,7 @@
 
 The  Tongue  and  Lips  (TaL) corpus is a  multi-speaker  corpus  of  ultrasound  images  of the  tongue  and  video  images  of  lips. This  corpus  contains synchronised  imaging  data  of  extraoral  (lips)  and  intraoral (tongue) articulators from 82 native speakers of English.
 
-For more information, please read [the TaL corpus paper here!](papers/tal_corpus_SLT2021.pdf).
+For more information, please read [the TaL corpus paper here!](../papers/tal_corpus_SLT2021.pdf)
 
 ![image](../imgs/sample_tal.png)
 
@@ -201,4 +201,4 @@ Supported by the Carnegie Trust for the Universities of Scotland (Research Incen
 
 If using data or code from the TaL corpus, please provide appropriate web links and cite the following paper:
 
-- Ribeiro, M. S., Sanger, J., Zhang, J.-X., Eshky, A., Wrench, A., Richmond, K.,& Renals, S. (2021).  **TaL: a synchronised multi-speaker corpus of ultrasound tongue imaging, audio, and lip videos.** Proceedings of the IEEE Workshop on Spoken Language Technology (SLT). Shenzhen, China. [[paper](papers/tal_corpus_SLT2021.pdf)] 
+- Ribeiro, M. S., Sanger, J., Zhang, J.-X., Eshky, A., Wrench, A., Richmond, K.,& Renals, S. (2021).  **TaL: a synchronised multi-speaker corpus of ultrasound tongue imaging, audio, and lip videos.** Proceedings of the IEEE Workshop on Spoken Language Technology (SLT). Shenzhen, China. [[paper](../papers/tal_corpus_SLT2021.pdf)] 
