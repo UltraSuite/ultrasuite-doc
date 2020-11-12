@@ -2,13 +2,15 @@
 
 **A dataset of ultrasound and audio recorded with children with cleft lip and palate**
 
+
+
 ### Speakers
 
 We recorded data with 39 English-speaking children, but only 29 gave consent to share their data.
 These are 11 female speakers and 18 male, aged 7-11 years.
 
 | SPEAKER-ID | GENDER | AGE-Y | AGE-M | AGE | CLEFT-TYPE | OTHER-MEDICAL |
-| --- | --- | --- | --- | --- | --- | --- |
+| ---------- | ------ | ----- | ----- | --- | ---------- | ------------- |
 | 01M | M | 10 | 5 | 10.42 | BCLP | no |
 | 03F | F | 5 | 1 | 5.83 | UCLP | no |
 | 05M | M | 10 | 3 | 10.75 | UCLP | no |
@@ -39,7 +41,9 @@ These are 11 female speakers and 18 male, aged 7-11 years.
 | 37M | M | 7 | 0 | 7.58 | BCLP | no |
 | 39M | M | 7 | 0 | 7 | CP | yes |
 
-### Cleft palate types 
+
+
+### Cleft Palate Types 
 
 | Data type | Description                                                         |
 | --------- | ------------------------------------------------------------------- |
@@ -47,13 +51,17 @@ These are 11 female speakers and 18 male, aged 7-11 years.
 | UCLP | unilateral cleft lip and palate affecting one side of the lipand palate  |
 | BLP |  bilateral cleft lip and palate affecting both sides                      |
 
+
+
 ### Sessions
 
-Each child recorded an "Assessment" session, and two chilren recorded a "Therapy" session.
+Each child recorded an "Assessment" session, and two children recorded a "Therapy" session.
+
+
 
 ### Data Types
 
-**<u>Core data types</u>**
+**<u>Core data types:</u>**
 
 | Data type | Description                                       |
 | --------- | ------------------------------------------------- |
@@ -62,15 +70,18 @@ Each child recorded an "Assessment" session, and two chilren recorded a "Therapy
 | param     | ultrasound parameters                             |
 | txt       | prompt text with date/time of utterance recording |
 
-**<u>Additional data</u>**
 
-| Data type        | Description                                                  |
-| ---------------- | ------------------------------------------------------------ |
-| slt_labels       | manual annotation from SLT, when available. See [2] for details |
-| probe_direction_labels   | a label for each utterance indicating whether the probe was in a coronal position (cor) or midgittal right or let (sag_right, sag_left) |
+**<u>Additional data:</u>**
+
+| Data type                | Description                                                     |
+| ------------------------ | --------------------------------------------------------------- |
+| slt_labels               | manual annotation from SLT, when available. See [2] for details |
+| probe_direction_labels   | a label for each utterance indicating whether the probe was in a coronal position (cor) or midsagittal right or let (sag_right, sag_left) |
 
 
 SLT Labels are available in Praat's TextGrid format, and probe_direction_labels is a csv file. 
+
+
 
 ### File IDs
 
@@ -83,6 +94,6 @@ Each file ID also includes a prompt type identifier. See [Data](data.md) for det
 
 ### References
 
-[1] Eshky, A.,Cleland, J., Ribeiro, M. S., Renals, S. **Automatic audiovisual synchronisation for ultrasound tongue imaging**. Under revision.
+[1] Eshky, A.,Cleland, J., Ribeiro, M. S., Renals, S. **Automatic audiovisual synchronisation for ultrasound tongue imaging**. (Under revision).
 
 [2] Cleland, J., Lloyd, S., Campbell, L., Crampin, L., Palo, J.-P., Sugden,E., Wrench, A., & Zharkova, N. (2020). **The impact of real-time ar-ticulatory information on phonetic transcription:  ultrasound-aidedtranscription in  cleft lip and  palate speech**. Folia Phoniatrica etLogopaedica, 72, 120–130.
