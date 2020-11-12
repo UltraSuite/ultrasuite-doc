@@ -14,6 +14,7 @@ There are three child speech datasets available in the repository:
 - **Ultrax Typically Developing - UXTD.**  A dataset of 58 typically developing children. See [here](data/uxtd.md) for further details.
 - **Ultrax Speech Sound Disorders - UXSSD.**  A dataset of 8 children with speech sound disorders. See [here](data/uxssd.md) for further details.
 - **UltraPhonix - UPX.** A second dataset of children with speech sound disorders. The data was collected from 20 children.  See [here](data/upx.md) for further details.
+- **The Cleft Dataset - Cleft.** A dataset of children with cleft lip and palate. The data is available for 29 children.  See [here](data/cleft.md) for further details.
 
 And two datasets of adult speech:
 
