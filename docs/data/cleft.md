@@ -9,8 +9,8 @@
 We recorded data with 39 English-speaking children, but only 29 gave consent to share their data.
 These are 11 female speakers and 18 male, aged 7-11 years.
 
-| SPEAKER-ID | GENDER | AGE-Y | AGE-M | AGE | CLEFT-TYPE | OTHER-MEDICAL |
-| ---------- | ------ | ----- | ----- | --- | ---------- | ------------- |
+| SPEAKER-ID  | GENDER  | AGE-Y  | AGE-M  | AGE  | CLEFT-TYPE  | OTHER-MEDICAL  |
+| ----------- | ------- | ------ | ------ | ---- | ----------- | -------------- |
 | 01M | M | 10 | 5 | 10.42 | BCLP | no |
 | 03F | F | 5 | 1 | 5.83 | UCLP | no |
 | 05M | M | 10 | 3 | 10.75 | UCLP | no |
@@ -41,15 +41,19 @@ These are 11 female speakers and 18 male, aged 7-11 years.
 | 37M | M | 7 | 0 | 7.58 | BCLP | no |
 | 39M | M | 7 | 0 | 7 | CP | yes |
 
+<br/>
+
 
 
 ### Cleft Palate Types 
 
-| Data type | Description                                                         |
-| --------- | ------------------------------------------------------------------- |
-| CP | cleft palate only                                                          |
-| UCLP | unilateral cleft lip and palate affecting one side of the lipand palate  |
-| BLP |  bilateral cleft lip and palate affecting both sides                      |
+| Data type   | Description                                                               |
+| ----------- | ------------------------------------------------------------------------- |
+| CP          | cleft palate only                                                         |
+| UCLP        | unilateral cleft lip and palate affecting one side of the lip and palate  |
+| BLP         | bilateral cleft lip and palate affecting both sides                       |
+
+<br/>
 
 
 
@@ -57,27 +61,31 @@ These are 11 female speakers and 18 male, aged 7-11 years.
 
 Each child recorded an "Assessment" session, and two children recorded a "Therapy" session.
 
+<br/>
 
 
 ### Data Types
 
 **<u>Core data types:</u>**
 
-| Data type | Description                                       |
-| --------- | ------------------------------------------------- |
-| wav       | speech waveform                                   |
-| ult       | raw ultrasound data                               |
-| param     | ultrasound parameters                             |
-| txt       | prompt text with date/time of utterance recording |
+| Data type   | Description                                       |
+| ----------- | ------------------------------------------------- |
+| wav         | speech waveform                                   |
+| ult         | raw ultrasound data                               |
+| param       | ultrasound parameters                             |
+| txt         | prompt text with date/time of utterance recording |
+
+<br/>
 
 
 **<u>Additional data:</u>**
 
-| Data type                | Description                                                     |
-| ------------------------ | --------------------------------------------------------------- |
-| slt_labels               | manual annotation from SLT, when available. See [2] for details |
-| probe_direction_labels   | a label for each utterance indicating whether the probe was in a coronal position (cor) or midsagittal right or let (sag_right, sag_left) |
+| Data type                  | Description                                                     |
+| -------------------------- | --------------------------------------------------------------- |
+| slt_labels                 | manual annotation from SLT, when available. See [2] for details |
+| probe_direction_labels     | a label for each utterance indicating whether the probe was in a coronal position (cor) or midsagittal right or let (sag_right, sag_left) |
 
+<br/>
 
 SLT Labels are available in Praat's TextGrid format, and probe_direction_labels is a csv file. 
 
@@ -90,7 +98,7 @@ See the prompt text file for recording date/time.
 
 Each file ID also includes a prompt type identifier. See [Data](data.md) for details.
 
-
+<br/>
 
 ### References
 
