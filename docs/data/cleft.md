@@ -2,7 +2,10 @@
 
 **A dataset of ultrasound and audio recorded with children with cleft lip and palate**
 
-
+The cleft dataset is a collection of ultrasound tongue imaging 
+and audio data, gathered from children with cleft lip and palate 
+by a research speech and language therapist working in a hospital
+environment.
 
 ### Speakers
 
@@ -74,6 +77,10 @@ Each child recorded an "Assessment" session, and two children recorded a "Therap
 | ult         | raw ultrasound data                               |
 | param       | ultrasound parameters                             |
 | txt         | prompt text with date/time of utterance recording |
+
+Hardware synchronisation failed for this dataset. We release the parameter
+File as exported from the AAA software. In [1] we provide automatically 
+predicted synchronisation offsets. 
 
 <br/>
 
