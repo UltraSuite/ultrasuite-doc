@@ -102,21 +102,34 @@ To simulate the process, you can run `rsync` with the flag `--dry-run` and get a
 
 ### Download label data
 
-To download manual and automatically-generated labels for all three datasets (~80MB), please run:
+#### UXTD, UXSSD, UPX
+To download manual and automatically-generated labels for the UXTD, UXSSD, and UPX datasets (~80MB), please run:
 
 ```sh
 rsync -av ultrasuite-rsync.inf.ed.ac.uk::ultrasuite/labels-uxtd-uxssd-upx .
 ```
 
-You can get labels for each of the datasets by appending `/uxtd`, `/uxssd`, or `/upx`to the command above. There is also a documentation directory for the labels called `/doc`.
+You can get labels for each of the datasets by appending `/uxtd`, `/uxssd`, or `/upx`to the directory in the command above. There is also a documentation directory for the labels called `/doc`.
 
-Previous versions of label data are archived in the top-level directory `archive`. To download an earlier version of label data, please run something like:
+#### Cleft
+To download labels for the cleft dataset (~316K), please run:
+
+```sh
+rsync -av ultrasuite-rsync.inf.ed.ac.uk::ultrasuite/labels-cleft .
+```
+
+This includes a documentation directory called `/doc`.
+
+#### Previous versions
+Previous versions of label data are archived in the top-level directory `archive`. To download an earlier version of label data, please run:
 
 ```sh
 rsync -av ultrasuite-rsync.inf.ed.ac.uk::ultrasuite/archive/labels-uxtd-uxssd-upx-1.0.zip .
 ```
 
 The command above will download version 1.0 of labels. Replace the version number as appropriate.
+
+
 
 ### Download selected data types
 
