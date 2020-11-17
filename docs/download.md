@@ -75,13 +75,14 @@ You can download an entire data set by syncing its corresponding directory. For 
 rsync -av ultrasuite-rsync.inf.ed.ac.uk::ultrasuite/core-uxtd .
 ```
 
-The same command can be used to download `/core-uxssd` and `/core-upx`. Please be aware that each dataset can be quite large:
+The same command can be used to download `/core-uxssd`, `/core-upx` and `/core-cleft`. Please be aware that each dataset can be quite large:
 
-| Dataset     | Size  |
-| ----------- | ----- |
-| /core-uxtd  | 82GB  |
-| /core-uxssd | 110GB |
-| /core-upx   | 191GB |
+| Dataset       | Size  |
+| ------------- | ----- |
+| /core-uxtd    | 82GB  |
+| /core-uxssd   | 110GB |
+| /core-upx     | 191GB |
+| /core-cleft   | 85G   |
 
 The structure of each data set is identical and it follows the following pattern:
 
