@@ -176,11 +176,17 @@ If you're just interested in general input/output, one or more of [these functio
 
 
 
+### Synchronisation of data streams
+
+The hardware synchronisation signal used during data collection is available in the TaL corpus. This is a waveform with the file extension `.sync`. Please check the page linked below for further details. This page might also be useful to understand the overall content of the data.
+
+- [Synchronisation signal for the Tongue and Lips corpus](tal_corpus_sync.md).
+
+**Regarding TaL1:** The video synchronisation failed during the first recording session of the TaL1 data. The problem can be seen in the synchronisation signal, which merged the video and ultrasound signals. We chose to release this session, as it might still be useful for some applications that do not depend on video and audio synchronisation. This session is named `day1_no_vid_sync`. Check the link above for further details.
+
+
+
 ### Additional Notes
-
-**TaL1 Notes**
-
-The video synchronisation failed during the first recording session of the TaL1 data. The problem can be seen in the synchronisation signal, which merged the video and ultrasound signals. We opted to release this session, as it might still be useful for some applications that do not depend on video and audio synchronisation. This session is named `day1_no_vid_sync`.
 
 **TaL80 Notes**
 
