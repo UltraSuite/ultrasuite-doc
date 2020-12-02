@@ -1,4 +1,4 @@
-# The Cleft Palate Dataset
+# The Cleft Dataset
 
 **A dataset of ultrasound and audio recorded with children with cleft lip and palate**
 
@@ -48,7 +48,7 @@ These are 11 female speakers and 18 male, aged 7-11 years.
 
 
 
-### Cleft Palate Types 
+### Cleft Types 
 
 | Data type   | Description                                                               |
 | ----------- | ------------------------------------------------------------------------- |
