@@ -75,14 +75,15 @@ You can download an entire data set by syncing its corresponding directory. For 
 rsync -av ultrasuite-rsync.inf.ed.ac.uk::ultrasuite/core-uxtd .
 ```
 
-The same command can be used to download `/core-uxssd`, `/core-upx` and `/core-cleft`. Please be aware that each dataset can be quite large:
+The same command can be used to download `/core-uxssd`, `/core-upx`, `/core-cleft` and `/core-ux2020`. Please be aware that each dataset can be quite large:
 
 | Dataset       | Size  |
 | ------------- | ----- |
 | /core-uxtd    | 82GB  |
 | /core-uxssd   | 110GB |
 | /core-upx     | 191GB |
-| /core-cleft   | 85G   |
+| /core-cleft   | 85GB  |
+| /core-ux2020  | 91GB  |
 
 The structure of each data set is identical and it follows the following pattern:
 
@@ -148,6 +149,6 @@ This command downloads all waveforms from the UXTD dataset. Note that the `--inc
 
 The following command illustrates how you can download the entire repository. 
 
-**Warning: running the following command will download ~380GB of data!**
+**Warning: running the following command will download ~556GB of data!**
 
 `rsync -av ultrasuite-rsync.inf.ed.ac.uk::ultrasuite .`

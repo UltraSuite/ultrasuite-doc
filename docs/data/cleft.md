@@ -90,7 +90,7 @@ predicted synchronisation offsets.
 | Data type                  | Description                                                     |
 | -------------------------- | --------------------------------------------------------------- |
 | slt_labels                 | manual annotation from SLT, when available. See [2] for details |
-| probe_direction_labels     | a label for each utterance indicating whether the probe was in a coronal position (cor) or midsagittal right or let (sag_right, sag_left) |
+| probe_direction_labels     | a label for each utterance indicating whether the probe was in a <br> coronal position (cor) or midsagittal right or let (sag_right, sag_left) |
 
 <br/>
 
